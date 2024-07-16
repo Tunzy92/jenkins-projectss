@@ -11,13 +11,13 @@ Infrastructure as Code (Provisioning & Configuration Management)
 External Config/Secret management
 
                                         TOOLS & SERVICES USED
-For this Jenkins project, I have used the following DevOps Tools
+For this Jenkins project, I have used the following DevOps Tools..
 
-GitHub: Repository to store IaC
-Packer: To build Jenkins Controller and agent AMIs
-Ansible: To configure Jenkins controller and agent during the AMI building process
-Terraform: To provision AWS resources
-Python Boto3: To retrieve SSH public key from AWS parameter store.
+    GitHub: Repository to store IaC
+    Packer: To build Jenkins Controller and agent AMIs
+    Ansible: To configure Jenkins controller and agent during the AMI building process
+    Terraform: To provision AWS resources
+    Python Boto3: To retrieve SSH public key from AWS parameter store.
 Following are the AWS services used.
 
     IAM: To create IAM Role/Instance Profile for Jenkins Controller and Agent Nodes.
